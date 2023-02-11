@@ -42,7 +42,7 @@ function render(variables = {}) {
           <h2>${variables.role}</h2>
           <h3>${variables.city}, ${variables.country}</h3>
           <ul class="${variables.socialMediaPosition}">
-            <li><a href="${variables.twitter}"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="${variables.twitter}"><i class="fa-brands fa-twitter"></i></a></li>
             <li><a href="${variables.github}"><i class="fab fa-github"></i></a></li>
             <li><a href="${variables.linkedin}"><i class="fab fa-linkedin"></i></a></li>
             <li><a href="${variables.instagram}"><i class="fab fa-instagram"></i></a></li>
@@ -59,9 +59,11 @@ window.onload = function() {
     // if includeCover is true the algorithm should
     includeCover: true,
     // this is the url of the image that will used as background for the profile cover
-    background: "https://images.unsplash.com/photo-1511974035430-5de47d3b95da",
+    background:
+      "https://time.com/wp-content/uploads/2017/10/229-westerlund-21.jpg?w=2000",
     // this is the url for the profile avatar
-    avatarURL: "https://randomuser.me/api/portraits/women/42.jpg",
+    avatarURL:
+      "https://pbs.twimg.com/profile_images/1545121384816431104/o7jhodMZ_400x400.jpg",
     // social media bar position (left or right)
     socialMediaPosition: "position-left",
     // social media usernames
